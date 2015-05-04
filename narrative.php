@@ -29,8 +29,8 @@
 
             <h2>Before...</h2>
             <div class='container1' > 
-                <a href="https://lbrown20.w3.uvm.edu/cs142/assignment6/homepage1.png" target="_blank"><img src="homepage1.png" width="300" height="200"  alt="Main Page" /></a>
-                <a href="https://lbrown20.w3.uvm.edu/cs142/assignment6/homepage2.png" target="_blank"><img src="homepage2.png" width="300" height="200"  alt="Main Page 2" /></a>
+                <a href="https://lbrown20.w3.uvm.edu/cs142/assignment7/HomeBefore.png" target="_blank"><img src="HomeBefore.png" width="300" height="200"  alt="Main Page" /></a>
+                <a href="https://lbrown20.w3.uvm.edu/cs142/assignment7/MostPopularBefore.png" target="_blank"><img src="MostPopularBefore.png" width="300" height="200"  alt="Most Popular" /></a>
 
             </div>
 
@@ -39,11 +39,10 @@
                 <div class="container">
                     <h2>5 Changes</h2>
                     <ol class="ordered-list">
-                        <li>Change 1: Utilized Krug's 3rd law of usability and cut down the amount of text on the page and reorganize visual hierarchy</li>
-                        <li>Change 2: Remove the "Contact" and "Sitemap" buttons, reposition "Bookmark," bold "Log In"  </li>
-                        <li>Change 3: Adjusted menu item names for better understanding, added padding to nav</li>
-                        <li>Change 4: Relocated link to PDF of menu to make it more accessible    </li>
-                        <li>Change 5: Added address and phone number to the home page</li>
+                        <li>Change 1: Added a drop down menu to show which hikes would appear under each category on the main navigation</li>
+                        <li>Change 2: Added trail maps to each of the hikes </li>
+                        <li>Change 3: Changed the link to the UVM Outing Club so it would open a new window</li>
+
 
 
                     </ol>
