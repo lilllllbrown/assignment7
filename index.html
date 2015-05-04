@@ -6,7 +6,7 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>LoVermont</title>
+        <title>LoVermont Hiking Project</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="A UVM Student's Guide to Local Hiking" >
@@ -17,7 +17,9 @@ and open the template in the editor.
 
     </head>
     <body>
-        <a href='https://algoldma.w3.uvm.edu/cs142/assignment7/index.html'><header><h1>LoVermont</h1><h2>A UVM student's guide to hiking around Burlington</h2></header></a>
+    <div class='wrapper'>
+    <div class='wrapper1'>            
+        <a href='https://algoldma.w3.uvm.edu/cs142/assignment7/index.html'><header><h1>LoVermont Hiking Project</h1><h2>A UVM student's guide to hiking around Burlington</h2></header></a>
     <nav class='generalNav'>
         <ul>
             <li><a href="popular.html">The Most Popular</a>
@@ -47,20 +49,10 @@ and open the template in the editor.
         </ul>
     </nav>
         <section class='mainContent'>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim,
-            eros et tempus pellentesque, orci dui lobortis ipsum, et pretium quam magna vel lorem. Ut 
-            porttitor eleifend tempus. Sed non accumsan risus. Cras luctus sit amet nibh viverra scelerisque.
-            Interdum et malesuada fames ac ante ipsum primis in faucibus. In nibh purus, imperdiet in commodo
-            ut, eleifend a dui. Donec non ultricies ex, rhoncus congue est. Cras ultrices euismod venenatis.
-            Phasellus viverra mi ut malesuada auctor. Vivamus ornare vitae mauris sit amet convallis.
-            Suspendisse convallis volutpat auctor. Quisque et massa luctus, ultrices nibh id, elementum 
-            elit. Maecenas vestibulum quam varius tellus euismod tincidunt.
-
-            Sed eu quam nisi. Donec feugiat ornare tortor, a tincidunt turpis viverra id. Pellentesque habitant 
-            morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis
-            in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam non lectus aliquam, suscipit nisi eu,
-            dapibus purus. Pellentesque posuere eros vel ex dapibus pretium. Cras sit amet lorem suscipit, 
-            ultricies justo et, laoreet lorem.</p>
+            <h3>Take advantage of the great hiking spots in the Burlington area! This is in no way a comprehensive
+            list, but these are definitely some highlights of the great hiking you can do around UVM. So take a study break
+            and get out there!</h3>
+            <p>Check out the <a href="resources.html" class='resources'>Resources</a> page for what to bring, and other helpful tips.</p>
         </section>
         <footer>
             <ul>
@@ -75,5 +67,7 @@ and open the template in the editor.
             </ul>
 
         </footer>
+    </div>
+    </div>
     </body>
 </html>

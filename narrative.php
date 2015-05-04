@@ -37,7 +37,7 @@
 
             <aside id="other">
                 <div class="container">
-                    <h2>5 Changes</h2>
+                    <h2> Changes</h2>
                     <ol class="ordered-list">
                         <li>Change 1: Added a drop down menu to show which hikes would appear under each category on the main navigation</li>
                         <li>Change 2: Added photos and trail maps to each of the hikes </li>

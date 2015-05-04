@@ -31,13 +31,19 @@
             <a href='form.pdf'>Permission Form</a></div>
         <h2>First Test</h2>
         <div class="videos"><ol>
-                <li> <iframe width="560" height="315" src="//www.youtube.com/embed/U94nGmCBy3Y"  allowfullscreen></iframe></li>
+                <li> <iframe width="560" height="315" src="//www.youtube.com/embed/fsQanGZvfRU"  allowfullscreen></iframe></li>
 
-                <li><iframe width="560" height="315" src="//www.youtube.com/embed/jMiUaro6pfw"  allowfullscreen></iframe></li>
+                <li><iframe width="560" height="315" src="//www.youtube.com/embed/eCcSjxKO1Ak"  allowfullscreen></iframe></li>
 
-                <li><iframe width="560" height="315" src="//www.youtube.com/embed/1Nnx_YLCdYU"  allowfullscreen></iframe></li>
+                <li><iframe width="560" height="315" src="//www.youtube.com/embed/nR8D5JKDMYs"  allowfullscreen></iframe></li>
+            </ol>
        <h2>Second Test</h2> 
-                <li><iframe width="560" height="315" src="//www.youtube.com/embed/5PR0FphDX9o"  allowfullscreen></iframe></li>
+       <ol>
+                <li><iframe width="560" height="315" src="//www.youtube.com/embed/VvVbtu28IfY"  allowfullscreen></iframe></li>
+                
+                <li><iframe width="560" height="315" src="//www.youtube.com/embed/p6DSutig0NA"  allowfullscreen></iframe></li>
+                
+                <li><iframe width="560" height="315" src="//www.youtube.com/embed/aIn8e_KmQrI"  allowfullscreen></iframe></li>
             </ol>
 
         </div>
