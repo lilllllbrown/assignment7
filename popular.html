@@ -20,21 +20,43 @@ and open the template in the editor.
         <div class='wrapper'>
         <div class='wrapper1'>            
         <a href='https://algoldma.w3.uvm.edu/cs142/assignment7/index.html'><header><h1>LoVermont</h1><h2>A UVM student's guide to hiking around Burlington</h2></header></a>
-        <nav class='generalNav'>
-            <a href="popular.html" class='currentPage'>The Most Popular</a>
-            <a href="easiest.html">The Easiest</a>
-            <a href="closest.html">The Closest</a>
-            <a href="rewarding.html">The Most Rewarding</a>
+        <nav class='generalNav'><ul>
+            <li><a href="popular.html" class='currentPage'>The Most Popular</a>
+                <ul class="dropdown popular">
+                    <li><a class='mainContent popular' href='popular1.html'>Camel's Hump</a></li>
+                    <li><a class='mainContent popular' href='popular2.html'>Mount Mansfield</a></li>
+                    <li><a class='mainContent popular' href='popular3.html'>Mount Philo</a></li>
+                </ul> </li>       
+            <li><a href="easiest.html">The Easiest</a>
+                <ul class="dropdown easiest">
+                    <li><a class='mainContent easiest' href='easiest1.html'>Mount Philo</a></li>
+                    <li><a class='mainContent easiest' href='easiest2.html'>Haystack Mountain</a></li>
+                    <li><a class='mainContent easiest' href='easiest3.html'>Snake Mountain</a></li>
+                </ul></li>
+            <li><a href="closest.html">The Closest</a>
+                <ul class="dropdown closest">
+                    <li><a class='mainContent closest' href='closest1.html'>Mount Abraham</a></li>
+                    <li><a class='mainContent closest'  href='closest2.html'>Mount Ellen</a></li>
+                    <li><a class='mainContent closest'  href='closest3.html'>Mount Philo</a></li>
+                </ul></li>
+            <li><a href="rewarding.html">The Most Rewarding</a>
+                <ul class="dropdown rewarding">
+                    <li><a class='mainContent rewarding' href='rewarding1.html'>Hunger Mountain</a></li>
+                    <li><a class='mainContent rewarding' href='rewarding2.html'>Mount Killington</a></li>
+                    <li><a class='mainContent rewarding' href='rewarding3.html'>Mount Mansfield</a></li>
+                </ul></li>
+        </ul>
         </nav>
         <h1>The Most Popular</h1>
+        <ul class="subNav">
+            <li><a class='mainContent current camelsHump' href='popular1.html'>Camel's Hump</a></li>
+            <li><a class='mainContent mountMansfield' href='popular2.html'>Mount Mansfield</a></li>
+            <li><a class='mainContent mountPhilo' href='popular3.html'>Mount Philo</a></li>
+        </ul>
         <section class='mainContent'>
             <h3>This is a list of the most popular/commonly done hikes among UVM students--according to the students themselves! These are tried and true favorites.</h3>
         </section>
-        <ul class="subNav">
-            <li><a class='mainContent' href='popular1.html'>Camel's Hump</a></li>
-            <li><a class='mainContent' href='popular2.html'>Mount Mansfield</a></li>
-            <li><a class='mainContent' href='popular3.html'>Mount Philo</a></li>
-        </ul>        
+        
     </div>
     </div>            
         <footer>
@@ -45,7 +67,7 @@ and open the template in the editor.
                 <li>• <a href="closest.html">The Closest</a>
                 <li>• <a href="rewarding.html">The Most Rewarding</a>
                 <li>• <a href="resources.html">Resources</a></li>
-                <li>• <a href="http://www.uvm.edu/~outside/">UVM Outing Club</a></li>
+                <li>• <a href="http://www.uvm.edu/~outside/" target="_blank">UVM Outing Club</a></li>
                 <li>• <a href="sitemap.html">Site Map</a></li>
             </ul>
 

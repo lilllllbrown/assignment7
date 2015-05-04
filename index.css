@@ -11,7 +11,7 @@ body{
 .mainContent{
     background-color: rgba(255,255,255,0.75);
     width:75%;
-    margin: 4% auto 0% auto;
+    margin: 8% auto 1% auto;
     padding:1%;
 }
 nav a{
@@ -23,15 +23,19 @@ nav a{
     transition: border-radius 0.5s ease;
     min-width: 18%;
 }
+nav a:hover ul.dropdown{border:inherit;}
 nav a:hover{
-    border-radius: 50px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height:5em !important;
 }
 nav a:active{
     border:2px solid #659B68;
 }
 .currentPage{
     border:2px solid #659B68;
-    border-radius:50pc;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
 }
 .mainNav nav a{
     display:block;
@@ -84,14 +88,17 @@ footer  {
   text-align:center;
   width:99%;
   left:.5%;
-  margin-top:-3%;
+  margin-top:-2%;
+  line-height:1px;
 }  
 .generalNav{
     text-align:center;
     margin-bottom:6%;
+    position:absolute;
+    left:27%;
 }
 h1{
-    margin:0% auto 4% auto;
+    margin:12% auto 4% auto;
     -webkit-box-shadow:  0px 0px 20px 7px rgba(255,255,255,.9);
     -moz-box-shadow:  0px 0px 20px 7px rgba(255,255,255,.9);
     box-shadow:  0px 0px 20px 7px rgba(255,255,255,0.9);
@@ -100,23 +107,103 @@ h1{
     text-align:center;
     font-size:xx-large;
 }
+.generalNav + h1{
+    margin-bottom:-9%;
+}
+.generalNav + section.mainContent{
+    margin-top:11em;
+}
+header h1{margin-top:0%;}
 a.mainContent{
     width:25%;
     margin:2em;
     border:2px solid transparent;
     transition: box-shadow .5s ease;
     padding:.8em;
+    background-size: 80px 70px;
+    margin-top:-1em;
 }
+    .mountPhilo{
+        background-image: url('mountphilo.jpg');
+        display:inline-block;
+    }
+    .mountMansfield{
+        background-image: url('mountmansfield.jpg');
+        display: inline-block;
+    }
+    .haystackMountain{
+        background-image: url('haystackmountain.jpg');
+        display:inline-block;
+    }
+    .snakeMountain{
+        background-image: url('snakemountain.jpg');
+        display:inline-block;
+    }
+    .mountAbraham{
+        background-image: url('mountabraham.jpg');
+        display:inline-block;
+    }
+    .mountEllen{
+        background-image: url('mountellen.jpg');
+        display:inline-block;
+    }
+    .camelsHump{
+        background-image: url('camelshump.jpg');
+        display:inline-block;
+    }
+    .hungerMountain{
+        background-image: url('hungermountain.jpg');
+        display:inline-block;
+    }
+    .mountKillington{
+        background-image: url('killingtonmountain.jpg');
+        display:inline-block;
+    }
 ul.subNav{
     margin-left:24%;
     margin-right:35%;
-    margin-top:6%;
-    margin-bottom: 3%;
+    margin-top:14%;
+    margin-bottom: 19%;
     width:95%;
 }
 ul.subNav li{
     list-style-type:none;
     display:inline;
+}
+ul.dropdown{
+    margin:2.5em auto;
+    visibility:hidden;
+    display:none;
+    position:absolute;
+    top:.25em;
+    left: -5%;
+    width:12em;
+}
+ul.dropdown li a.mainContent{
+    padding:1%;
+    margin-left: 0em;
+    margin-right:0em;
+}
+ul.dropdown li{
+    display:inline;
+    float:left;
+    width:11em;
+    margin-bottom:.5em;
+    margin-left:-2em;
+    text-align:left;
+}
+ul > li {display: block; float: left; margin-right: 10px; position: relative;}
+ul ul {display: none; width: 150px; position:absolute; top: 2em; left: 0}
+ul ul > li {float: none;}
+ul > li:hover > ul,
+ul > a:hover + ul {display: block}
+ul.dropdown > li > ul > li a:hover{
+    box-shadow:none;
+    border-radius:1%;
+}
+nav.generalNav li:hover > ul.dropdown{
+    display:inline;
+    visibility:visible;
 }
 a.mainContent:hover{
     box-shadow: 10px 10px 18px 0px rgba(0,0,0,0.75);
@@ -156,7 +243,7 @@ section.mainContent{
     border:none;
 }
 @media screen and (max-width: 1100px) {
-
+    .generalNav{left:19%;}
     .mainNav nav ul{
         margin:auto;
     }
@@ -172,12 +259,17 @@ section.mainContent{
         margin-left:29%;
     }
 }
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 850px) {
+    .generalNav{left: 9%}
+}
+@media screen and (max-width: 750px) {
+    .generalNav{left: 5%}
+}
+@media screen and (max-width: 700px) {
     .generalNav a{
-        display: block;
         width:30%;
         margin:auto;
-        padding:1.1em 1.1em;
+        padding:.5em;
     }
     .generalNav a:nth-child(1),.generalNav a:nth-child(2){
         margin-right: auto;
@@ -189,11 +281,10 @@ section.mainContent{
         padding:1em 1em;
     }
     a.mainContent{
-        width:25%;
         position:relative;
         left:34.1%;
         margin-right:0em;
-        border:2px solid rgba(0, 0, 0, 0.0);
+        border:2px solid rgba(0 0 0 0.0);
         transition: box-shadow .5s ease;
     }
     a.mainContent:hover{
