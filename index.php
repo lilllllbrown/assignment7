@@ -28,7 +28,7 @@ and open the template in the editor.
             </ul>
         </nav>
     </section>
-        <p class='mainContent'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim,
+       <!-- <p class='mainContent'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim,
             eros et tempus pellentesque, orci dui lobortis ipsum, et pretium quam magna vel lorem. Ut 
             porttitor eleifend tempus. Sed non accumsan risus. Cras luctus sit amet nibh viverra scelerisque.
             Interdum et malesuada fames ac ante ipsum primis in faucibus. In nibh purus, imperdiet in commodo
@@ -43,6 +43,7 @@ and open the template in the editor.
             dapibus purus. Pellentesque posuere eros vel ex dapibus pretium. Cras sit amet lorem suscipit, 
             ultricies justo et, laoreet lorem.</p>
         </p>
+       -->
         <footer>
             <ul>
                 <li><a href="index.html">Home</a></li>
